@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    \
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HANBAO 2.0</title>
+  </head>
+  <body>
+    <section class="front-page">
+      <img class="ledlights" src="./images/ledlights.jpg" alt="HANBAO" />
+      <nav>
+        <div class="logo">
+          <h1>01905 - 0121</h1>
+        </div>
+        <div class="links">
+          <a href="index.html">HOME</a>
+          <a href="burgers.html">BURGERS</a>
+          <a href="sides.html">SIDES</a>
+          <a href="cocktails.html">COCKTAILS</a>
+          <a href="our-story.html">OUR STORY</a>
+          <a href="deals.html">DEALS</a>
+        </div>
+        <svg
+          width="44"
+          height="18"
+          viewBox="0 0 44 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            class="line"
+            y1="1"
+            x2="44"
+            y2="1"
+            stroke="white"
+            stroke-width="2"
+          />
+          <line
+            class="line"
+            y1="9"
+            x2="27"
+            y2="9"
+            stroke="white"
+            stroke-width="2"
+          />
+          <line
+            class="line"
+            y1="17"
+            x2="11"
+            y2="17"
+            stroke="white"
+            stroke-width="2"
+          />
+        </svg>
+      </nav>
+      <div class="selling-point">
+        <h2>ALL BEEF NO DRAMA </h2>
+        <h3>
+          COME JOIN US IN BIRMINGHAM & WOCESTER
+        </h3>
+        <div class="ctas">
+          <button class="cta-main">
+            <a href="https://www.hanbao.co.uk/book-table-location" target="_blank">COME THRU</a>
+          </button>
+        </div>
+      </div>
+    </section>
+          <section class="cocktails">
+            <div class="cocktail-description">
+              <h2> COCKTAILS </h2>
+               <div class="container" style="display: contents;">
+                <h2>DEALS</h2>
+                <p style="text-align: center;">VISIT OUR WOCESTER BRANCH FOR THE 2for1 EVERY FRIDAY</p>
+                <h1>HAPPY CHINESE NEW YEAR!</h1>
+                <h5>As it's the Chinese New Year we are celebrating by adding TWO new items to our menu.</h5>
+                <br> <br>
+                <h5>Visit both branches to try 'em</h5>
+               </div>
+               <div id="dycalendar" class="container"></div> 
+               <script src="dycalendar.js"></script>
+                  <script>
+                    dycalendar.draw({
+                      target:'#dycalendar' ,
+                      type: 'month' ,
+                      dayformat: 'full' ,
+                      monthformat: 'full' ,
+                      highlighttargetdate: true ,
+                      prevnextbutton: 'show',
+                    })
+                  </script>
+           </div>
+          
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+            integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+          ></script>
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"
+            integrity="sha512-YzMW3OzvgtVpIIPPpjnCy8wVTq5slHRrxnLH1oD5dkVjZf8+8DJYd+GYmmWXZNmroTqKXFFzFS3XZ/LBvaNgZg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+          ></script>
+          <script src="./script.js"></script>
+
+         
+          
+
+        </body>
+      </html>
